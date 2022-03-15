@@ -1,17 +1,29 @@
-# sparse_attention
+# Attention
 
-注意力机制 pytorch 版本实现
+The following attention models are implemented in pytorch.
 
-1-Attention 注意力机制
+## Environment
 
-2-MultiAttention 多头注意力机制
+>python 3.7
+>
+>pytorch 1.9.1
 
-3-MultiSelfAttention 多头自注意力机制
+## Different Attention Mechanisms
 
-4-AtrousSelfAttention 空洞多头注意力机制
+>1-Attention 注意力机制
+>
+>2-MultiAttention 多头注意力机制
+>
+>3-MultiSelfAttention 多头自注意力机制
+>
+>4-AtrousSelfAttention 空洞多头注意力机制
+>
+>5-LocalSelfAttention 局部多头注意力机制
+>
+>6-SparseSelfAttention 稀疏多头注意力机制
 
-5-LocalSelfAttention 局部多头注意力机制
+## References
 
-6-SparseSelfAttention 稀疏多头注意力机制
+1.https://github.com/bojone/attention
 
-参考: https://github.com/bojone/attention
+2.https://kexue.fm/archives/6853
